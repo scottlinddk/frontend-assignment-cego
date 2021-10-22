@@ -43,7 +43,6 @@ export default {
 
 <style scoped>
 .games-list__item {
-  width: 100%;
   cursor: pointer;
   overflow: hidden;
   border-radius: 0.5rem;
@@ -52,8 +51,11 @@ export default {
     drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06));
 }
 .games-list__content {
+  grid-area: content;
   position: relative;
+  overflow: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex: 1;
@@ -61,6 +63,6 @@ export default {
   width: 100%;
 }
 .games-list__logo {
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 3rem 0;
 }
 </style>

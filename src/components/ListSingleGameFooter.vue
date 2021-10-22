@@ -31,7 +31,7 @@ export default {
   position: absolute;
   text-align: left;
   bottom: 0;
-  width: 100%;
+  width: 100%; 
   background-color: #fff;
   display: grid;
   grid-template:
